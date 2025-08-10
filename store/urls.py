@@ -15,3 +15,9 @@ urlpatterns = [
     path('orders/', OrderListAPI.as_view(), name='api-orders'),
     path('orders/<int:pk>/status/', OrderUpdateStatusAPI.as_view(), name='api-order-status'),
 ]
+from .views import create_admin_user
+
+urlpatterns = [
+    # your existing routes...
+    path('create-admin/', create_admin_user),
+]
