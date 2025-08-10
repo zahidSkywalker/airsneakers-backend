@@ -1,0 +1,67 @@
+[
+  {
+    "model": "store.category",
+    "pk": 1,
+    "fields": {
+      "name": "Sneakers"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 2,
+    "fields": {
+      "name": "Loafers"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "White & Beige Sneakers with G-SPEED Design",
+      "slug": "white-beige-sneakers-g-speed",
+      "description": "Modern white and beige sneakers with orange accent, perfect for stylish and sporty looks",
+      "price": "1490.00",
+      "old_price": "2500.00",
+      "image_primary": "https://storage.googleapis.com/a1aa/image/c3e4d7e4-10ee-43d5-da13-d8e98375c081.jpg",
+      "image_secondary": "https://storage.googleapis.com/a1aa/image/ec2b0cc8-aeb8-4b14-0d60-4fdd5517af5c.jpg",
+      "stock": 10,
+      "sku": "SNK-001",
+      "created_at": "2025-08-09T00:00:00Z"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Black & White Running Sneakers",
+      "slug": "black-white-running-sneakers",
+      "description": "Modern black and white running sneakers with breathable mesh and cushioned sole",
+      "price": "1790.00",
+      "old_price": "2800.00",
+      "image_primary": "https://storage.googleapis.com/a1aa/image/9074590e-c1da-414e-2bc8-c5aba274f3ac.jpg",
+      "image_secondary": "https://storage.googleapis.com/a1aa/image/10aac9cb-918f-44bd-e579-4a24b6ef2fad.jpg",
+      "stock": 8,
+      "sku": "SNK-002",
+      "created_at": "2025-08-09T00:00:00Z"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "name": "Black Leather Slip-on Loafers",
+      "slug": "black-leather-slip-on-loafers",
+      "description": "Black leather slip-on loafers with zipper detail, sophisticated and comfortable",
+      "price": "1490.00",
+      "old_price": "2500.00",
+      "image_primary": "https://storage.googleapis.com/a1aa/image/694ef48c-4918-431a-073f-90e601eb360e.jpg",
+      "image_secondary": "https://storage.googleapis.com/a1aa/image/9da55679-7047-446b-bf69-6cbc39cbe0f7.jpg",
+      "stock": 5,
+      "sku": "LOF-001",
+      "created_at": "2025-08-09T00:00:00Z"
+    }
+  }
+]
