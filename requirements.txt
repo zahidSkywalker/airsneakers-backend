@@ -1,0 +1,8 @@
+Django>=4.2
+djangorestframework>=3.14
+python-dotenv>=1.0.0
+requests>=2.31
+django-cors-headers>=4.0
+gunicorn
+dj-database-url>=1.0
+psycopg2-binary>=2.9
