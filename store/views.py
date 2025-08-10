@@ -106,6 +106,9 @@ class OrderUpdateStatusAPI(views.APIView):
 from django.contrib.auth.models import User
 from django.http import JsonResponse
 
+from django.contrib.auth.models import User
+from django.http import JsonResponse
+
 def create_admin_user(request):
     if User.objects.filter(username="admin").exists():
         return JsonResponse({"status": "error", "message": "Admin already exists"})
