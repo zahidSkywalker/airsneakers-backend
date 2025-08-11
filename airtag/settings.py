@@ -70,7 +70,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # CORS - allow your frontend domain
 CORS_ALLOWED_ORIGINS = [
-    "https://your-frontend-domain.com",
+    "https://airsneakers-frontend.vercel.app/",
     "http://localhost:3000",
     "http://localhost:5500",
 ]
