@@ -94,7 +94,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5500"
 ]
-CORS_ALLOW_ALL_ORIGINS = True if DEBUG else False
+
 
 # =====================
 # SSLCommerz Sandbox Settings
