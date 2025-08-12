@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY SETTINGS
 SECRET_KEY = os.getenv("SECRET_KEY", "dev-secret")
-DEBUG = os.getenv("DEBUG", "True") == "True"
+DEBUG = True
 
 # Hosts allowed to serve this app
 ALLOWED_HOSTS = [
